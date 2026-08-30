@@ -1,6 +1,6 @@
 # ai-tools
 
-Open collection of practical AI tools and experiments from [Seidr Analytics](https://github.com/Seidr-Analytics). Built so others can **clone and use them easily** — each tool is self-contained under `tools/`.
+Open collection of practical AI tools, experiments, and proof-of-concepts from [Seidr Analytics](https://github.com/Seidr-Analytics). Small, transparent projects that explore how AI can turn data into useful intelligence — built so others can **clone and use them easily**. Each tool is self-contained under `tools/`.
 
 ## Clone
 
