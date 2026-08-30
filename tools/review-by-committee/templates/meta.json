@@ -1,0 +1,13 @@
+{
+  "tool": "review-by-committee",
+  "tool_version": "0.1.0",
+  "target_root": "",
+  "git_head": "",
+  "requirements_path": "",
+  "intent": "",
+  "output_dir": "",
+  "focus_paths": [],
+  "chairs_run": [],
+  "specialists_activated": [],
+  "notes": "No secrets in this file."
+}

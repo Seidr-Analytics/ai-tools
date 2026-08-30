@@ -8,14 +8,14 @@ Open collection of practical AI tools and experiments from Seidr Analytics — b
 
 ## Current state
 
-- Initialized 2026-08-30. Repo layout in place (`tools/`, `docs/memory/`). First tools not yet added.
+- Initialized 2026-08-30. First published tool: `tools/review-by-committee` (Cursor skill; copy to `~/.cursor/skills/`).
 - Public README includes clone instructions (SSH and HTTPS).
 
 ## How we work
 
-- Python-first unless a tool needs something else; minimal dependencies per tool.
+- Python-first unless a tool is a Cursor skill (or otherwise needs something else); minimal dependencies per tool.
 - See root README and `tools/` for setup and conventions.
-- New tools: self-contained folder, own README and dependencies, update root tool table.
+- New tools: self-contained folder, own README, update root tool table.
 
 ## Constraints
 

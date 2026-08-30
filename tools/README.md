@@ -6,8 +6,9 @@ Each tool is a self-contained folder:
 tools/
   <tool-name>/
     README.md          # what it does, prerequisites, how to run
-    requirements.txt   # or pyproject.toml — pin what this tool needs
-    ...                # scripts, notebooks, configs
+    requirements.txt   # or pyproject.toml — pin what this tool needs (if Python)
+    SKILL.md           # if this tool is a Cursor skill
+    ...                # scripts, notebooks, configs, protocol files
 ```
 
 ## Adding a tool
@@ -18,6 +19,10 @@ tools/
 4. Update the tool table in the root `README.md`.
 
 ## Running a tool
+
+**Cursor skill:** follow that tool's README (usually copy the folder to `~/.cursor/skills/<name>/`). Do not install it into the repo you are reviewing.
+
+**Python:**
 
 ```bash
 cd tools/<tool-name>

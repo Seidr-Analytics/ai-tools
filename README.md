@@ -20,7 +20,7 @@ cd ai-tools
 
 | Tool | Description | Docs |
 |---|---|---|
-| _(none yet)_ | First tool coming soon | — |
+| review-by-committee | Multi-persona, evidence-based review of a local git repo (Cursor skill) | [tools/review-by-committee](tools/review-by-committee/) |
 
 See [`tools/`](tools/) for the catalog layout and how to add a tool.
 

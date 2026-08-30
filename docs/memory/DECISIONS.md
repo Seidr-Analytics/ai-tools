@@ -22,3 +22,16 @@ Architecture and process choices. Append only; do not rewrite history.
 **Decision:** Use `/new-project` in local-automation — agent asks intent, proposes names, waits for confirmation, then scaffolds locally, adds to workspace, and connects GitHub last.
 
 **Why:** GitHub repo creation comes after local layout is agreed; workspace and memory are part of initialization, not optional follow-ups.
+
+## 2026-08-30 — Review by committee is a Cursor skill
+
+**Context:** First public tool is a multi-persona review of the user's own git repo.
+
+**Decision:**
+
+- Ship as `tools/review-by-committee/` with `SKILL.md`; users copy it to `~/.cursor/skills/review-by-committee/`. No CLI/SDK in v1.
+- Target is a local git root. Requirements file (`.md`/`.txt`) is required. Tests are inspect-only. Reports go where the user says (sibling folder if they do not pick).
+- Always-on chairs: staff, security, QA, junior, data (may N/A), stakeholder reader, requirements analyst, then PM. Infra/SRE and frontend are recon-activated. Title weight is 0.
+- Spec + short intent; thin spec proceeds with a blocker finding. One thoroughness gear. No writes to the target. Secrets never in reports or search queries.
+
+**Why:** Audience is Cursor users evaluating their own code. The product is a repeatable protocol, not a Python entrypoint. Hierarchy would launder findings; evidence ranking will not.
